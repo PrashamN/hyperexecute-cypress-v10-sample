@@ -17,8 +17,8 @@ pre:
   - npm i lambdatest-cypress-cli
 
 matrix:
-   os: [linux, win]
-   browser: ["chrome"]
+   os: [win]
+   browser: ["edge-122"]
 
 testDiscovery:
   mode: dynamic
